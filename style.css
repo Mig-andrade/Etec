@@ -1,0 +1,358 @@
+    body {
+        font-family: "Yu Gothic";
+        overflow-x: hidden;
+    }
+    @media (max-width: 700px) {
+        #hometitle1 {
+            font-size: 20vw !important;
+        }
+        #hometitle2 {
+            display: none;
+        }
+        #divtitle {
+            width: 100%;
+            text-align: center;
+            margin: 35vh 0 !important;
+        }
+        .navbar-brand {
+            font-size: 8vw !important;
+        }
+        #cpslogo {
+            width: 40vw !important;
+        }
+        #footertext {
+            margin: 0 !important;
+        }
+        #footercontent {
+            margin-left: 56vw !important;
+        }
+        #footerimage1 {
+            width: 20vw !important;
+            margin-left: 20vw !important;
+        }
+        #footerimage2 {
+            width: 20vw !important;
+        }
+        .nav-link {
+            font-size: 5vw !important;
+        }
+        .slides {
+            height: auto !important;
+        }
+        .slide img {
+            width: 130vw;
+            height: 65vw;
+        }
+        .sobretitle {
+            font-size: 8vw !important;
+        }
+        .sobretext {
+            font-size: 4vw !important;
+        }
+        #histdiv {
+            display: block !important;
+        }
+        #histimage1 {
+            width: 80vw !important;
+            margin-left: 9vw !important;
+            margin-bottom: 15vw !important;
+        }
+        #histimage2 {
+            width: 80vw !important;
+            margin-left: 9vw !important;
+        }
+        .cursotext {
+            font-size: 4vw !important;
+            display: block !important;
+        }
+        #dsimage {
+            width: 60vw !important;
+            margin-left: 12vw !important;
+            margin-top: 5vw !important;
+        }
+        .btn {
+            font-size: 5vw !important;
+            margin-top: 5vw !important;
+            margin-left: 5vw !important;
+        }
+        .materias {
+            font-size: 4vw !important;
+            margin-top: 5vw !important;
+            margin-left: -8vw !important;
+        }
+        .imagem {
+            height: 35vh !important;
+            opacity: 1 !important;
+        }
+    }  
+    @media (min-width: 600px) and (max-width: 1000px) {
+        .imagem {
+            height: 60vh !important;
+            opacity: 1 !important;
+        }
+    }
+    #backgroundvideo {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        z-index: -999;
+        padding: 0;
+        margin: 0;
+    }
+
+    .hometitle {
+        color: white;
+    }
+
+    #hometitle1 {
+        font-size: 8vw;
+        margin-left: 3vw;
+        text-shadow: 5px 5px black;
+    }
+
+    #hometitle2 {
+        font-size: 2.5vw;
+        margin-left: 0vw;
+        text-shadow: 2.5px 2.5px black;
+
+    }
+
+    #divtitle {
+        margin-top: 30vh;
+        margin-left: 35vw;
+    }
+
+    #cpslogo {
+        width: 10vw;
+    }
+
+    .navbar-brand {
+        font-size: 2vw;
+    }
+
+    .nav-link {
+        color: #777777;
+        font-size: 1.4vw;
+        margin-left: 0.5vw;
+    }
+
+    .navbar-nav {
+        margin-left: 2vw !important;
+    }
+
+    .active {
+        color: black;
+    }
+    .active-btn {
+        background-color: white !important;
+    }
+    .slider {
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .slides {
+        width: 500%;
+        height: 60vh;
+        display: flex;
+    }
+
+    .slides input {
+        display: none;
+    }
+
+    .slide {
+        width: 20%;
+        position: relative;
+        transition: 2s;
+    }
+
+    .slide img {
+        width: 100vw;
+        height: 50vw;
+    }
+
+    .manual-navigation {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        margin-top: -5vh;
+        justify-content: center;
+    }
+
+    .manual-btn {
+        border: 2px solid white;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 40px;
+        transition: 0.5s;
+    }
+
+    .navigation-auto div {
+        border: 2px solid #20a6FF;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+        margin-left: 40px;
+    }
+    .navigation-auto {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        margin-top: -5vh;
+        justify-content: center;
+
+    }
+
+
+    .manual-btn:hover {
+        background-color: white;
+    }
+
+    #radio1:checked~.first {
+        margin-left: 0;
+    }
+
+    #radio2:checked~.first {
+        margin-left: -20%;
+    }
+
+    #radio3:checked~.first {
+        margin-left: -40%;
+    }
+
+    #radio4:checked~.first {
+        margin-left: -60%;
+    }
+
+    #radio5:checked~.first {
+        margin-left: -80%;
+    }
+
+    #sobrecontent {
+        background-color: #f8f9fa;
+    }
+
+    .sobretitle {
+        font-size: 3vw;
+        padding-top: 2vw;
+        padding: 20px;
+    }
+
+    .sobretext {
+        font-size: 1vw;
+        padding: 0 20px 100px 20px;
+    }
+
+    .hidden {
+        opacity: 0;
+    }
+
+    #footer {
+        width: 100%;
+        background-color: #222222;
+        color: white;
+        padding: 20px;
+        text-align: left;
+    }
+
+    #footertext {
+        margin-left: 15vw;
+    }
+
+    #footercontent {
+        margin-left: 73vw;
+    }
+
+    #footerimage1 {
+        width: 7vw;
+        margin-top: 0.5vw;
+        margin-left: 8vw;
+        position: absolute;
+    }
+
+    #footerimage2 {
+        width: 7vw;
+    }
+
+    #histdiv {
+        display: flex;
+    }
+
+    #histimage1 {
+        border: 3px solid black;
+        width: 35vw;
+        margin-left: 10vw;
+        margin-bottom: 5vw;
+    }
+
+    #histimage2 {
+        border: 3px solid black;
+        width: 35vw;
+        margin-left: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .cursotext {
+        font-size: 1vw;
+        padding: 0 20px 0px 20px;
+        display: flex;
+    }
+
+    #dsimage {
+        width: 20vw;
+        padding: 20px;
+        transition: 1s ease-in;
+        margin-top: -5vw;
+    }
+
+    .materias {
+        font-size: 1vw;
+        padding: 0 20px 0 20px;
+    }
+    ul {
+        margin-left: 5vw;
+    }
+    .btn {
+        margin-top: -5vw;
+        font-size: 1.5vw;
+        border: 2px solid black;
+        margin-left: 1vw;
+        color: white;
+        background-color: black;
+    }
+    .materias.collapse {
+        display: none !important;
+    }
+    .materias.collapsing {
+        display: flex !important;
+    }
+    .materias.show {
+        display: flex !important;
+    }
+
+    .img-fluid {
+        width: 900px !important;
+    }
+    .row {
+        margin: 1vw;
+    }
+    .imagem {
+        width: 30vw;
+        height: 40vh;
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+    .imagem:hover {
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    
+
+
